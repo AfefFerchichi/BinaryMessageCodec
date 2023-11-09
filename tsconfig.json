@@ -1,10 +1,4 @@
 {
-    "ts-node": {
-        // these options are overrides used only by ts-node
-        "compilerOptions": {
-            "module": "commonjs"
-        }
-    },
     "compilerOptions": {
         "module": "commonjs",
         "moduleResolution": "node",
@@ -15,12 +9,7 @@
             "es2019",
             "esnext.asynciterable"
         ],
-        "outDir": "./dist",
         "strict": true,
-        "rootDirs": [
-            "./src",
-            "../DPCommon"
-        ],
         "noImplicitAny": false,
         "strictNullChecks": true,
         "emitDecoratorMetadata": true,
@@ -46,6 +35,5 @@
     ],
     "exclude": [
         "node_modules",
-        "build"
     ]
 }
