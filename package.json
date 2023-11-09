@@ -1,0 +1,19 @@
+{
+  "name": "binarymessagecodec",
+  "version": "1.0.0",
+  "description": "Design and Implement a Simple Binary Message Encoding\r Scheme\r Design and implement a simple binary message encoding scheme to be used in a signaling protocol",
+  "main": "binary.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node binary.ts",
+    "dev": "ts-node-dev --respawn --inspect -- binary.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}

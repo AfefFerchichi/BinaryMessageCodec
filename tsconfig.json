@@ -1,0 +1,51 @@
+{
+    "ts-node": {
+        // these options are overrides used only by ts-node
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    },
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "target": "ES2018",
+        "lib": [
+            "es2019",
+            "esnext.asynciterable"
+        ],
+        "outDir": "./dist",
+        "strict": true,
+        "rootDirs": [
+            "./src",
+            "../DPCommon"
+        ],
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": false,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+    },
+    "include": [
+        "./*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
